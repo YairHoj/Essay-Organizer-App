@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 
 const cors = require("cors");
+const PORT = process.env.PORT || 5001;
 const corsOptions = {
   origin: "*",
   credentials: true, //access-control-allow-credentials:true
@@ -9,7 +10,7 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions)); // Use this after the variable declaration
-app.listen(5001, () => {
+app.listen(PORT, () => {
   console.log(`Server listening on 5001`);
 });
 
