@@ -42,6 +42,6 @@ let nameApi = [];
 
 // 3202 colleges
 
-app.get("/api", (req, res) => {
+app.get("/", (req, res) => {
   res.send(nameApi);
 });
