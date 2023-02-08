@@ -1,0 +1,1 @@
+College Organizer gives college applicants a place to manage and organize their applications. We will provide an essay writing hub as well as other important information that college applications have. 
